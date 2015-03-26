@@ -1,11 +1,11 @@
 #
 # Node.js w/ Bower & Grunt Dockerfile
 #
-# https://github.com/dockerfile/nodejs-bower-grunt
+# https://github.com/digitallyseamless/docker-nodejs-bower-grunt
 #
 
 # Pull base image.
-FROM dockerfile/nodejs
+FROM library/node
 
 # Install Bower & Grunt
 RUN npm install -g bower grunt-cli
