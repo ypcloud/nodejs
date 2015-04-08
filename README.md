@@ -1,7 +1,7 @@
 ## Node.js w/ Bower & Grunt
 [![dockeri.co](http://dockeri.co/image/digitallyseamless/nodejs-bower-grunt)](https://registry.hub.docker.com/u/digitallyseamless/nodejs-bower-grunt)
 
-This repository contains **Dockerfile** of [Node.js](http://nodejs.org/) w/ [Bower](http://bower.io/) & [Grunt](http://gruntjs.com/) for [Docker](https://www.docker.com/)'s [automated build](https://registry.hub.docker.com/u/digitallyseamless/nodejs-bower-grunt/) published to the public [Docker Hub Registry](https://registry.hub.docker.com/).
+This repository contains a **Dockerfile** of [Node.js](http://nodejs.org/) w/ [Bower](http://bower.io/) & [Grunt](http://gruntjs.com/) for [automated builds](https://registry.hub.docker.com/u/digitallyseamless/nodejs-bower-grunt/) published to the public [Docker Hub Registry](https://registry.hub.docker.com/).
 
 ### Base Docker Image
 
@@ -16,9 +16,9 @@ This repository contains **Dockerfile** of [Node.js](http://nodejs.org/) w/ [Bow
 
 1. Install [Docker](https://www.docker.com/).
 
-2. Download [automated build](https://registry.hub.docker.com/u/digitallyseamless/nodejs-bower-grunt/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull digitallyseamless/nodejs-bower-grunt`
+2. Download an [automated build](https://registry.hub.docker.com/u/digitallyseamless/nodejs-bower-grunt/) from public the [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull digitallyseamless/nodejs-bower-grunt`
 
-   (alternatively, you can build an image from Dockerfile: `docker build -t="digitallyseamless/nodejs-bower-grunt" github.com/digitallyseamless/docker-nodejs-bower-grunt`)
+   (alternatively, you can build an image directly from this repository: `docker build -t="digitallyseamless/nodejs-bower-grunt" github.com/digitallyseamless/docker-nodejs-bower-grunt`)
 
 
 ### Usage
