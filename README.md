@@ -3,11 +3,14 @@
 
 This repository contains **Dockerfile** of [Node.js](http://nodejs.org/) w/ [Bower](http://bower.io/) & [Grunt](http://gruntjs.com/) for [Docker](https://www.docker.com/)'s [automated build](https://registry.hub.docker.com/u/digitallyseamless/nodejs-bower-grunt/) published to the public [Docker Hub Registry](https://registry.hub.docker.com/).
 
-
 ### Base Docker Image
 
 * [library/node](https://registry.hub.docker.com/_/node/)
 
+### Supported tags and respective `Dockerfile` links
+* [`0.10` (0.10/Dockerfile)](https://github.com/DigitallySeamless/docker-nodejs-bower-grunt/blob/v0.10/Dockerfile)
+* [`0.12`, `latest` (0.12/Dockerfile)](https://github.com/DigitallySeamless/docker-nodejs-bower-grunt/blob/master/Dockerfile)
+* [`0.8` (0.8/Dockerfile)](https://github.com/DigitallySeamless/docker-nodejs-bower-grunt/blob/v0.8/Dockerfile)
 
 ### Installation
 
