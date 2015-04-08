@@ -8,9 +8,12 @@ This repository contains a **Dockerfile** of [Node.js](http://nodejs.org/) w/ [B
 * [library/node](https://registry.hub.docker.com/_/node/)
 
 ### Supported tags and respective `Dockerfile` links
-* [`0.10` (0.10/Dockerfile)](https://github.com/DigitallySeamless/docker-nodejs-bower-grunt/blob/v0.10/Dockerfile)
-* [`0.12`, `latest` (0.12/Dockerfile)](https://github.com/DigitallySeamless/docker-nodejs-bower-grunt/blob/master/Dockerfile)
-* [`0.8` (0.8/Dockerfile)](https://github.com/DigitallySeamless/docker-nodejs-bower-grunt/blob/v0.8/Dockerfile)
+* [`0.10`](https://github.com/DigitallySeamless/docker-nodejs-bower-grunt/blob/v0.10/Dockerfile)
+* [`0.10-onbuild`](https://github.com/DigitallySeamless/docker-nodejs-bower-grunt/blob/v0.10-onbuild/Dockerfile)
+* [`0.12`, `latest`](https://github.com/DigitallySeamless/docker-nodejs-bower-grunt/blob/master/Dockerfile)
+* [`0.12-onbuild`, `onbuild`](https://github.com/DigitallySeamless/docker-nodejs-bower-grunt/blob/onbuild/Dockerfile)
+* [`0.8`](https://github.com/DigitallySeamless/docker-nodejs-bower-grunt/blob/v0.8/Dockerfile)
+* [`0.8-onbuild`](https://github.com/DigitallySeamless/docker-nodejs-bower-grunt/blob/v0.8-onbuild/Dockerfile)
 
 ### Installation
 
