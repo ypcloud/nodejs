@@ -1,5 +1,5 @@
 ## Node.js w/ Bower & Grunt Dockerfile
-
+[![dockeri.co](http://dockeri.co/image/digitallyseamless/nodejs-bower-grunt)](https://registry.hub.docker.com/u/digitallyseamless/nodejs-bower-grunt)
 
 This repository contains **Dockerfile** of [Node.js](http://nodejs.org/) w/ [Bower](http://bower.io/) & [Grunt](http://gruntjs.com/) for [Docker](https://www.docker.com/)'s [automated build](https://registry.hub.docker.com/u/digitallyseamless/nodejs-bower-grunt/) published to the public [Docker Hub Registry](https://registry.hub.docker.com/).
 
