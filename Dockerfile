@@ -6,6 +6,7 @@
 
 # Pull base image.
 FROM library/node
+MAINTAINER Digitally Seamless <docker@digitallyseamless.com>
 
 # Install Bower & Grunt
 RUN npm install -g bower grunt-cli
