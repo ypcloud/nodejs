@@ -8,12 +8,18 @@ This repository contains a **Dockerfile** of [Node.js](http://nodejs.org/) w/ [B
 * [library/node](https://registry.hub.docker.com/_/node/)
 
 ### Supported tags and respective `Dockerfile` links
-* [`0.10`](https://github.com/DigitallySeamless/docker-nodejs-bower-grunt/blob/v0.10/Dockerfile)
-* [`0.10-onbuild`](https://github.com/DigitallySeamless/docker-nodejs-bower-grunt/blob/v0.10-onbuild/Dockerfile)
-* [`0.12`, `latest`](https://github.com/DigitallySeamless/docker-nodejs-bower-grunt/blob/master/Dockerfile)
-* [`0.12-onbuild`, `onbuild`](https://github.com/DigitallySeamless/docker-nodejs-bower-grunt/blob/onbuild/Dockerfile)
 * [`0.8`](https://github.com/DigitallySeamless/docker-nodejs-bower-grunt/blob/v0.8/Dockerfile)
 * [`0.8-onbuild`](https://github.com/DigitallySeamless/docker-nodejs-bower-grunt/blob/v0.8-onbuild/Dockerfile)
+* [`0.10`](https://github.com/DigitallySeamless/docker-nodejs-bower-grunt/blob/v0.10/Dockerfile)
+* [`0.10-onbuild`](https://github.com/DigitallySeamless/docker-nodejs-bower-grunt/blob/v0.10-onbuild/Dockerfile)
+* [`0.12`](https://github.com/DigitallySeamless/docker-nodejs-bower-grunt/blob/v0.12/Dockerfile)
+* [`0.12-onbuild`](https://github.com/DigitallySeamless/docker-nodejs-bower-grunt/blob/v0.12-onbuild/Dockerfile)
+* [`4`](https://github.com/DigitallySeamless/docker-nodejs-bower-grunt/blob/v4/Dockerfile)
+* [`4-onbuild`](https://github.com/DigitallySeamless/docker-nodejs-bower-grunt/blob/v4-onbuild/Dockerfile)
+* [`5`](https://github.com/DigitallySeamless/docker-nodejs-bower-grunt/blob/v5/Dockerfile)
+* [`5-onbuild`](https://github.com/DigitallySeamless/docker-nodejs-bower-grunt/blob/v5-onbuild/Dockerfile)
+* [`latest`](https://github.com/DigitallySeamless/docker-nodejs-bower-grunt/blob/master/Dockerfile)
+* [`onbuild`](https://github.com/DigitallySeamless/docker-nodejs-bower-grunt/blob/onbuild/Dockerfile)
 
 ### Installation
 
