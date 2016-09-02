@@ -1,12 +1,5 @@
-#
-# Node.js w/ Bower & Grunt Dockerfile
-#
-# https://github.com/digitallyseamless/docker-nodejs-bower-grunt
-#
-
-# Pull base image.
 FROM library/node:4
-MAINTAINER Digitally Seamless <docker@digitallyseamless.com>
+MAINTAINER YPCloud <cloud@yp.ca>
 
 # Install Bower & Grunt
 RUN npm install -g bower grunt-cli && \
