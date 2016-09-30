@@ -25,7 +25,7 @@ RUN set -x \
 
 
 # Install Bower & Grunt
-RUN npm install -g bower grunt-cli && \
+RUN npm install -g apidoc bower grunt-cli mocha && \
     echo '{ "allow_root": true }' > /root/.bowerrc
 
 # Define working directory.
