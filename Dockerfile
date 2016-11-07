@@ -25,8 +25,10 @@ RUN set -x \
 
 
 # Install Bower & Grunt
-RUN npm install -g apidoc bower grunt-cli mocha && \
+RUN npm install -g apidoc bower grunt-cli mocha yarn && \
     echo '{ "allow_root": true }' > /root/.bowerrc
+
+RUN yarn add merino && yarn remove merino
 
 # Define working directory.
 WORKDIR /data
