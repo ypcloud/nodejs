@@ -1,4 +1,4 @@
-FROM library/node:4
+FROM library/node:6
 MAINTAINER YPCloud <cloud@yp.ca>
 
 # Install Bower & Grunt
