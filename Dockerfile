@@ -25,7 +25,7 @@ RUN set -x \
 
 
 # Install Bower & Grunt
-RUN npm install -g apidoc bower grunt-cli mocha yarn && \
+RUN npm install -g apidoc bower grunt-cli mocha phantomjs yarn && \
     echo '{ "allow_root": true }' > /root/.bowerrc
 
 RUN yarn add merino && yarn remove merino
