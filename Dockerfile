@@ -1,4 +1,4 @@
-FROM library/node:6
+FROM library/node:8
 MAINTAINER YPCloud <cloud@yp.ca>
 
 ENV GPG_KEYS \
@@ -9,8 +9,8 @@ RUN set -ex \
 		apt-key adv --keyserver ha.pool.sks-keyservers.net --recv-keys "$key"; \
 	done
 
-ENV MONGO_MAJOR 3.2
-ENV MONGO_VERSION 3.2.9
+ENV MONGO_MAJOR 3.4
+ENV MONGO_VERSION 3.4.10
 
 RUN echo "deb http://repo.mongodb.org/apt/debian jessie/mongodb-org/$MONGO_MAJOR main" > /etc/apt/sources.list.d/mongodb-org.list
 
